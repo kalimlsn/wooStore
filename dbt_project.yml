@@ -41,6 +41,11 @@ models:
       airbyte_views:
         +tags: airbyte_internal_views
         +materialized: view
+  datamart:
+    +schema: datamart
+    +materialized: table
+
+    
 dispatch:
 - macro_namespace: dbt_utils
   search_order:
