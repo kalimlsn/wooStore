@@ -43,9 +43,7 @@ models:
         +materialized: view
   datamart:
     +schema: datamart
-    +materialized: table
-
-    
+    +materialized: table  
 dispatch:
 - macro_namespace: dbt_utils
   search_order:
