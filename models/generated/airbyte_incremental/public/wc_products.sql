@@ -14,11 +14,7 @@ select
     slug,
     tags,
     price,
-<<<<<<< HEAD
     _links,
-=======
-       _links,
->>>>>>> cd940c55a50da1f4e3b637b288c27c33395fd7aa
     images,
     status,
     weight,
@@ -29,11 +25,6 @@ select
     variable,
     downloads,
     meta_data,
-<<<<<<< HEAD
-=======
-    categories,
-   description,
->>>>>>> cd940c55a50da1f4e3b637b288c27c33395fd7aa
     parent_id,
     permalink,
     tax_class,
@@ -69,10 +60,6 @@ select
     date_on_sale_to,
     download_expiry,
     reviews_allowed,
-<<<<<<< HEAD
-=======
-    short_description,
->>>>>>> cd940c55a50da1f4e3b637b288c27c33395fd7aa
     date_created_gmt,
     grouped_products,
     shipping_taxable,
