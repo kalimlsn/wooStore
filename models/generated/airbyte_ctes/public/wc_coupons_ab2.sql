@@ -14,6 +14,8 @@ select
     used_by,
     cast(shop_url as {{ dbt_utils.type_string() }}) as shop_url,
     meta_data,
+    cast(store_url as {{ dbt_utils.type_string() }}) as store_url,
+    cast(profile_id as {{ dbt_utils.type_string() }}) as profile_id,
     cast(description as {{ dbt_utils.type_string() }}) as description,
     product_ids,
     cast(usage_count as {{ dbt_utils.type_bigint() }}) as usage_count,

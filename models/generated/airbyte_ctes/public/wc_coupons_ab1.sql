@@ -14,6 +14,8 @@ select
     {{ json_extract_array('_airbyte_data', ['used_by'], ['used_by']) }} as used_by,
     {{ json_extract_scalar('_airbyte_data', ['shop_url'], ['shop_url']) }} as shop_url,
     {{ json_extract('table_alias', '_airbyte_data', ['meta_data']) }} as meta_data,
+    {{ json_extract_scalar('_airbyte_data', ['store_url'], ['store_url']) }} as store_url,
+    {{ json_extract_scalar('_airbyte_data', ['profile_id'], ['profile_id']) }} as profile_id,
     {{ json_extract_scalar('_airbyte_data', ['description'], ['description']) }} as description,
     {{ json_extract_array('_airbyte_data', ['product_ids'], ['product_ids']) }} as product_ids,
     {{ json_extract_scalar('_airbyte_data', ['usage_count'], ['usage_count']) }} as usage_count,

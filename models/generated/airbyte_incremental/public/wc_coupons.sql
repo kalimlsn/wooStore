@@ -15,6 +15,8 @@ select
     used_by,
     shop_url,
     meta_data,
+    store_url,
+    profile_id,
     description,
     product_ids,
     usage_count,

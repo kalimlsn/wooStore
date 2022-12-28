@@ -15,6 +15,8 @@ select
         array_to_string('used_by'),
         'shop_url',
         'meta_data',
+        'store_url',
+        'profile_id',
         'description',
         array_to_string('product_ids'),
         'usage_count',
