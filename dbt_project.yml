@@ -1,4 +1,4 @@
-name: airbyte_utils
+name: airbyte_utils 
 version: '1.0'
 config-version: 2
 profile: normalize
