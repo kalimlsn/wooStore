@@ -34,7 +34,7 @@ select
     {{ adapter.quote('name') }},
     sku,
     price,
-     CAST(id AS bigint)  as parent_id,
+     {{ adapter.quote('id') }}  as parent_id,
      {{ adapter.quote('attributes') }},
      date_modified as updated_at ,
      date_created as created_at ,
